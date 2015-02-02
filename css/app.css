@@ -1,0 +1,114 @@
+/*.back-col{
+	background-color:#f2f2f2;
+  border-radius:0 0 8px 8px ;
+}*/
+.header{
+  width: 90%;
+  height: 80px;
+  background-color: #5677FC;
+  margin-left:30px;
+  position: relative;
+  border-radius:0 0 8px 8px ;
+  
+}
+.header:before
+{
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 15px;
+  left: 10px;
+  width: 50%;
+  top: 80%;
+  max-width:300px;
+  background: #f2f2f2;
+  -webkit-box-shadow: 0 15px 10px #f2f2f2;
+  -moz-box-shadow: 0 15px 10px #f2f2f2;
+  box-shadow: 0 15px 10px #f2f2f2;
+  -webkit-transform: rotate(-3deg);
+  -moz-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+}
+.bod{
+  width: 90%;
+  height: auto;
+  background-color: #fff;
+  margin-left:30px;
+  padding: 100px;
+  bottom: 100px;
+  right: 100px;
+  margin-left: 50px;
+  border-radius:0 0 8px 8px;
+   box-shadow: 10px 10px 5px #f2f2f2;
+   position:static; 	      
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.bod:before, .bod:after
+{
+	content:"";
+    position:absolute; 
+    z-index:-1;
+    -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    box-shadow:0 0 20px rgba(0,0,0,0.8);
+    top:0;
+    bottom:0;
+    left:10px;
+    right:10px;
+    -moz-border-radius:100px / 10px;
+    border-radius:100px / 10px;
+} 
+.bod:after
+{
+	right:10px; 
+    left:auto;
+    -webkit-transform:skew(8deg) rotate(3deg); 
+       -moz-transform:skew(8deg) rotate(3deg);     
+        -ms-transform:skew(8deg) rotate(3deg);     
+         -o-transform:skew(8deg) rotate(3deg); 
+            transform:skew(8deg) rotate(3deg);
+}
+#col{
+background: transparent;
+background-image: none;
+background-repeat: repeat-x;
+border-color: none;
+filter: none;
+}
+.navbar-nav > li > a:link
+{
+color:#fff;
+}
+.navbar-default .navbar-brand{
+	color:#fff;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff;border-color: #fff;
+}
+.navbar-default .navbar-toggle{
+	border-color: #fff;
+	border-width: 2px;
+}
+
+.bottom-nav{
+  text-align:center;
+  background:#2E8ECE;
+  width:100%;
+  color:#fff;
+  height:35px
+}
+/*.bottom-nav .nav{float:none; margin:0}
+.bottom-nav .nav a{ padding: 0 25px; line-height:35px}
+.fixed-top, .fixed-bottom{
+  background:#2980b9;
+  position:fixed;
+  top:0;
+}*/
+.fixed-bottom{
+	top:auto;
+  bottom:0;
+}

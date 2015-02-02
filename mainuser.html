@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Register</title>
+	<!-- Online -->
+	<!-- Latest compiled and minified CSS 
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+    -->
+<!-- Offline -->
+   <link rel="stylesheet" href="css/app.css">
+   <link rel="stylesheet" href="css/body.css">
+   <link rel="stylesheet" href="dist/css/bootstrap.min.css">
+   <link rel="stylesheet" href="dist/css/bootstrap-theme.min.css">
+   
+	
+</head>
+
+<body class="back-col">
+	
+	<nav class="nav navbar-default navbar-fixed-top" id="col">
+	<div class="header" responsive>
+	<a class="brand" href="index.html">
+            <!-- UNCOMMENT THE CSS VALUES TO TEST OTHER DIMENTIONS -->
+            <!-- <img src="http://placehold.it/150x80&text=Logo" alt=""> -->
+            <img src="" alt="Share your Travel">
+            </a>
+            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </a>
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Share your Travel</a>
+        </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <!-- <form class="navbar-form navbar-right" role="search">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+          </form> -->
+          <ul class="nav navbar-nav">
+            <li><a href="About.html">About</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="reg.html">Register</a></li>
+            <li><a href="Contact.html">Contact Us</a></li>
+            <li><a href="Demo.html">DEMO</a></li>
+            <li><a href="mainUser.html">After login for User</a></li>
+            <!-- <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+              </ul>
+            </li> -->
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+     </div>
+    </nav>
+		
+	
+	<div class="bod">
+  <legend class="legend"><p>Availablity</p></legend>
+     <form method="post" class="fm">
+    
+    <div class="group">      
+      <input type="text" required>
+      <span class="highlight"></span>
+      <span class="bar"></span>
+      <label>From</label>
+    </div>
+    <div class="group">      
+      <input type="text" required>
+      <span class="highlight"></span>
+      <span class="bar"></span>
+      <label>To</label>
+    </div>
+      
+    <div class="group">      
+      <input type="date" required>
+      <span class="highlight"></span>
+      <span class="bar"></span>
+      <label>Date</label>
+    </div>
+
+    <div class="group">      
+      <input type="time" required>
+      <span class="highlight"></span>
+      <span class="bar"></span>
+      <label>Time</label>
+    </div>
+    
+
+        <div class="">
+
+          <button type="button" class="btn btn-success">
+        <span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Find Availability</button>
+
+        </div>
+        
+        
+
+     </form>
+  </div>
+</body>
+<!--  fixed footer with social icons
+<div class="bottom-nav fixed-bottom">
+       <ul class="nav">
+        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+        <li><a href="#"><i class="fa fa-rss"></i></a></li>
+      </ul> 
+    </div>-->
+<!-- footer started  -->
+<!-- Online 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> -->
+    <script src="dist/js/jquery.js" rel="stylesheet"> </script>  
+<!-- Offline -->
+    <script src="dist/js/bootstrap.min.js" rel="stylesheet"> </script>
+   <script src="dist/js/a.js" rel="stylesheet"> </script> 
+<footer class="">  
+  <div class="footer">
+   <!-- Large modal -->
+    <a href="PRPY.php" data-toggle="modal" data-target=".bs-example-modal-lg">Privacy policy</a>
+
+    <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <?php require_once'PRPY.php';?>
+
+        </div>
+      </div>
+    </div> <!-- PRPY -->
+
+    <!-- Large modal -->
+   <!-- <a href="T&C.php" data-toggle="modal" data-target=".bs-example-modal-lg1">Terms and Conditions</a>
+
+    <div class="modal fade bs-example-modal-lg1" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <?php require_once'T&C.php';?>
+
+        </div>
+      </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+     <p class="pull-left"> Copyright © Footer E-commerce Plugin 2014. All right reserved. </p>
+            <div class="pull-right">
+                <ul class="nav nav-pills payments">
+                  <li><i class="fa fa-cc-visa"></i></li>
+                    <li><i class="fa fa-cc-mastercard"></i></li>
+                    <li><i class="fa fa-cc-amex"></i></li>
+                    <li><i class="fa fa-cc-paypal"></i></li>
+                </ul> 
+            </div> -->
+ </footer>
+
+</html>

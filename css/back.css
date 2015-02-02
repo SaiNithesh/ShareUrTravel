@@ -1,0 +1,51 @@
+div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  animation: shadowAn 4s infinite;
+}
+
+@keyframes shadowAn {
+  0% {
+    box-shadow: 0 0 0 0 #333,
+      0 0 0 0 #27ae60,
+      0 0 0 0 #e74c3c,
+      0 0 0 0 #f1c40f,
+      0 0 0 0 #3498db;
+  }
+  20% {
+    box-shadow: 0 0 0 1000px #fff,
+      0 0 0 0 #27ae60,
+      0 0 0 0 #e74c3c,
+      0 0 0 0 #f1c40f,
+      0 0 0 0 #3498db;
+  }
+  40% {
+    box-shadow: 0 0 0 0 #333,
+      0 0 0 1000px #27ae60,
+      0 0 0 0 #e74c3c,
+      0 0 0 0 #f1c40f,
+      0 0 0 0 #3498db;
+  }
+  60% {
+    box-shadow: 0 0 0 0 #333,
+      0 0 0 0 #27ae60,
+      0 0 0 1000px #e74c3c,
+      0 0 0 0 #f1c40f,
+      0 0 0 0 #3498db;
+  }
+  80% {
+    box-shadow: 0 0 0 0 #333,
+      0 0 0 0 #27ae60,
+      0 0 0 0 #e74c3c,
+      0 0 0 1000px #f1c40f,
+      0 0 0 0 #3498db;
+  }
+  100% {
+    box-shadow: 0 0 0 0 #333,
+      0 0 0 0 #27ae60,
+      0 0 0 0 #e74c3c,
+      0 0 0 1000px #f1c40f,
+      0 0 0 0 #3498db;
+  }
+}
